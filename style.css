@@ -1,0 +1,25 @@
+
+.container{
+  width: 700px;
+}
+
+h1, h2{
+  /*margin: 20px auto;
+  text-align: center;*/
+}
+
+form{
+  margin-top: 20px;
+}
+
+table{
+  /*margin: auto;*/
+}
+
+tr td{
+  padding: 10px;
+}
+
+tr td:first-child{
+  /*text-align: right;*/
+}
