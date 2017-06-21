@@ -1,6 +1,15 @@
+body{
+  /*background-color: #EEEFF7;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+*{
+  /*color: #31353D;*/
+}
 
 .container{
   width: 700px;
+  padding-bottom: 50px;
 }
 
 h1, h2{
@@ -26,6 +35,16 @@ tr td:first-child{
 
 .form-group{
   margin-left: 0;
+}
+
+.checkbox{
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.btn{
+  margin: auto;
+  display: block;
 }
 
 /*.form-group.radiobuttons{
