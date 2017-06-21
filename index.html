@@ -18,35 +18,136 @@
 
         <form class="form-horizontal" action="">
             <div class="form-group">
-                <label class="col-sm-2 control-label" for="cust_name">Ваше имя:</label>
-                <div class="col-sm-10">
-                    <input class="form-control" type="text" name="cust_name" value="" placeholder="Камышев Всеволод">
+                <label class="col-sm-4 control-label" for="client_name">Ваше имя:</label>
+                <div class="col-sm-8">
+                    <input class="form-control" type="text" name="client_name" value="" placeholder="Камышев Всеволод">
                 </div>
             </div>
+
             <div class="form-group">
-
-                <label class="col-sm-2 control-label" for="description">Описание компании:</label>
-                <div class="col-sm-10">
-                    <textarea class="form-control" name="description" rows="4" cols="50"></textarea>
+                <label class="col-sm-4 control-label" for="client_contacts">Ваши контактные данные:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="client_contacts" rows="2" cols="50" placeholder="+7 (906) 700-92-62                                                              kamyshev@me.com"></textarea>
                 </div>
             </div>
 
-            <div class="checkbox">
-                <label>
-    <input type="checkbox" value="">Option one is this and that&mdash;be sure to include why it's great</label>
-            </div>
-            <div class="checkbox disabled">
-                <label>
-    <input type="checkbox" value="" disabled>Option two is disabled</label>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="company_description">Опишите вашу компанию или деятельность:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="company_description" rows="4" cols="50"></textarea>
+                </div>
             </div>
 
-            <div class="radio">
-                <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Option one is this and that&mdash;be sure to include why it's great</label>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="company_advantages">Преимущества компании и отличия от конкурентов:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="company_advantages" rows="4" cols="50"></textarea>
+                </div>
             </div>
-            <div class="radio">
-                <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Option two can be something else and selecting it will deselect option one</label>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="company_advantages">Сайты конкурентов:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="company_advantages" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <h2>Информация о задании</h2>
+            <div class="col-sm-offset-2">
+                <div class="form-group">
+                    <label class="radio-inline">
+            <input type="radio" name="task_type" id="complete_website" value="complete_website" checked>Полностью готовый сайт</label>
+
+                    <label class="radio-inline">
+            <input type="radio" name="task_type" id="design_only" value="design_only">Только дизайн</label>
+
+                    <label class="radio-inline">
+            <input type="radio" name="task_type" id="something_different" value="something_different">Что-то другое</label>
+                </div>
+            </div>
+            <div class="col-sm-offset-2">
+                <label class="checkbox"><input type="checkbox" value="">Адаптивный дизайн/верстка</label>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_description">Опишите задачу:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_description" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_goals">Для каких целей вам нужен сайт:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_goals" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_target_audience">Опишите целевую аудиторию:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_target_audience" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_website_sections">Ключевые разделы сайта:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_website_sections" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_website_sections">Необходимый функционал сайта:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_website_sections" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+            <!-- <div class="col-sm-8 col-sm-offset-2"> -->
+
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_website_style">Пожелания к стилю и цвветам:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_website_style" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_websites">Сайты которые нравятся или не нравятся:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_websites" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_materials">Какие материалы вы предоставляете:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_materials" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_additions">Дополнительные пожелания:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_additions" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_time">Пожелания по срокам выполнения:</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_time" rows="2" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="task_cost">Пожелания по стоимости работ</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" name="task_cost" rows="2" cols="50"></textarea>
+                </div>
             </div>
 
         </form>
